@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="pinakinathc_py",
-    version="0.0.1",
+    version="0.0.2",
     author="Pinaki Nath Chowdhury",
     author_email="mail@pinakinathc.me",
     description="A utility library.",
