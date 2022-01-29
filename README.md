@@ -17,6 +17,17 @@ Setup complete.
 >>> client.send(<sender email id>, 'hello world!')
 ```
 
+### Update
+Torch scoping from https://github.com/Tramac/torchscope.git with support for LSTM
+
+Usage
+```
+>>> torchvision.models import resnet18
+>>> torchscope import scope
+>>> model = resnet18()
+>>> scope(model, input_size=(3, 224, 224))
+```
+
 I won't be able to add a detailed documentation. Hence, if you want to submit a pull request regarding documentation, I will be grateful.
 
 A little advertisement of this author: www.pinakinathc.me
